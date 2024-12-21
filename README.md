@@ -17,6 +17,7 @@
    ```env
    PORT=3000
    MONGO_URI=mongodb://<your-mongodb-uri>
+   APP_URL=http://localhost:3000
    ```
 4. **Run the Application**
    Start the application using the following command:
