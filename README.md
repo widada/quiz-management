@@ -4,8 +4,8 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/widada/quiz-management.git
+   cd quiz-management
    ```
 2. **Install Dependencies**
    Make sure you are in the project directory, then run:
