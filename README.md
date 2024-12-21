@@ -34,6 +34,8 @@
    node seeders/questionSeeder.js
    ```
 
+Live website: https://quiz.widada.id
+
 ### **Folder Structure**
 
 ```plaintext
