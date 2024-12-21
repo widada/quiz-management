@@ -34,7 +34,7 @@
    node seeders/questionSeeder.js
    ```
 
-Live website: [https://quiz.widada.id](https://quiz.widada.id/api-docs/)
+Live website: [https://quiz.widada.id/api-docs](https://quiz.widada.id/api-docs/)
 
 ### **Folder Structure**
 
