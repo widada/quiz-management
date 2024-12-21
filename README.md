@@ -1,47 +1,40 @@
 ## **Quiz Management Documentation**
 
----
-
 ### **Installation Guide**
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/widada/quiz-management.git
+   cd quiz-management
    ```
-
 2. **Install Dependencies**
    Make sure you are in the project directory, then run:
    ```bash
    npm install
    ```
-
 3. **Set Up Environment Variables**
    Create a `.env` file in the root directory with the following configuration:
    ```env
    PORT=3000
    MONGO_URI=mongodb://<your-mongodb-uri>
    ```
-
 4. **Run the Application**
    Start the application using the following command:
    ```bash
    npm start
    ```
-
 5. **Run Tests**
    To run the unit tests, use:
    ```bash
    npm run test
    ```
-
 6. **Run Database Seeder**
    Populate the database with initial data using the seeder:
    ```bash
    node seeders/questionSeeder.js
    ```
 
----
+Live website: https://quiz.widada.id
 
 ### **Folder Structure**
 
@@ -71,26 +64,16 @@
     └── questionRoutes.test.js
 ```
 
----
-
 ### **Accessing API Documentation via Swagger**
 
-1. **Start the Server**
-   Ensure the server is running:
-   ```bash
-   npm start
-   ```
-
-2. **Access Swagger UI**
+1. **Access Swagger UI**
    Open your browser and navigate to:
    ```
    http://<your-server-address>:<port>/api-docs
    ```
 
-3. **Explore the API**
+2. **Explore the API**
    Use the Swagger UI to interact with and test the API endpoints.
-
----
 
 ### **API Documentation**
 
